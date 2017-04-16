@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">享阅</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_shelf">ShelfActivity</string>
+    <string name="title_activity_shop">ShopActivity</string>
+    <string name="title_activity_read">ReadActivity</string>
+    <string name="title_activity_note">NoteActivity</string>
+    <string name="title_activity_set">SetActivity</string>
+    <string name="title_activity_load">LoadActivity</string>
+    <string name="title_activity_creat">CreatActivity</string>
+
+</resources>

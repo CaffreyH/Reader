@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_layout"
+    android:background="@drawable/main_back" >
+    
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >"
+        
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="@drawable/main_btn_selector"
+            android:layout_marginBottom="20dp"
+            android:textSize="20sp"
+            android:text="登    录" />
+        
+        <Button
+            android:id="@+id/create_btn"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="@drawable/main_btn_selector"
+            android:layout_marginBottom="20dp"
+            android:textSize="20sp"
+            android:text="注    册" />
+        
+        <Button
+            android:id="@+id/look_btn"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="@drawable/main_btn_selector"
+            android:textSize="20sp"
+            android:text="随 便 逛 逛" />
+        
+    </LinearLayout>
+    
+    <ImageView android:id="@+id/start_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/start" />"
+
+</FrameLayout>

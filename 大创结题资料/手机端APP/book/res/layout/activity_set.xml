@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/set_back"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="#fdd" >
+        
+        <Button 
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/white_btn"
+            android:text="返  回" />
+        
+    </RelativeLayout>
+    
+    <LinearLayout style="@style/wrap_layout" >
+        
+        <LinearLayout style="@style/top_layout"
+            android:id="@+id/user_info" >
+            
+            <TextView style="@style/usertext"
+                android:text="用户信息" />
+            
+            <ImageView style="@style/img_arrow"/>
+            
+        </LinearLayout>
+        
+        <LinearLayout style="@style/mid_layout"
+            android:id="@+id/notes" >
+            
+            <TextView style="@style/usertext"
+                android:text="我的笔记" />
+            
+            <ImageView style="@style/img_arrow"/>
+            
+        </LinearLayout>
+        
+        <LinearLayout style="@style/bottom_layout"
+            android:id="@+id/text_style" >
+            
+            <TextView style="@style/usertext"
+                android:text="字体" />
+            
+            <ImageView style="@style/img_arrow"/>
+            
+        </LinearLayout>"
+        
+    </LinearLayout>
+    
+    <LinearLayout style="@style/wrap_layout" >
+        
+        <LinearLayout style="@style/top_layout"
+            android:id="@+id/call_us" >
+            
+            <TextView style="@style/usertext"
+                android:text="联系我们" />
+            
+            <ImageView style="@style/img_arrow"/>
+            
+        </LinearLayout>
+        
+        <LinearLayout style="@style/bottom_layout"
+            android:id="@+id/version" >
+            
+            <TextView style="@style/usertext"
+                android:text="版本信息" />
+            
+            <ImageView style="@style/img_arrow"/>
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>
